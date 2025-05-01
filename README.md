@@ -37,8 +37,6 @@ Open Source python script + tools needed to automate subtitles in videos
 
 3. Usar o comando: ***python legendador.py <nome_video.extensão>***
 
-    ![alt text](image-3.png)
-
 <br>
 
 ## Adicional
