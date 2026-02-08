@@ -7,16 +7,36 @@ Open Source python script + tools needed to automate subtitles in videos
 
 <br>
 
-## Guia:
+## Guia (terminal):
 
 1. Ter instalado localmente:
     > Python
+    - python --version
+    - winget seach python
+    - winget install Python.Python.3.14.3
+    - python --version
+    - python -m pip install --upgrade pip
+  
+   <br>
 
     > Whisper AI
-    
-    > FFmpeg
+    - python -m pip show openai-whisper
+    - python -m pip install --upgrade pip
+    - python -m pip install openai-whisper
+    - python -m pip show openai-whisper
 
-    > Torch (opcional, usa GPU em vez da CPU)
+    <br>
+
+    > FFmpeg
+    - ffmpeg -version
+    - https://www.gyan.dev/ffmpeg/builds/
+    - download: ffmpeg-2026-02-04-git-627da1111c-full_build
+    - extrair pasta > definir caminho "bin" como variável de ambiente "Path"
+    - ffmpeg -version
+  
+    <br>
+
+    > Torch (opcional, usa GPU em vez da CPU, acelera muito o processo)
 
 <br>
 
@@ -35,15 +55,27 @@ Open Source python script + tools needed to automate subtitles in videos
 
 <br>
 
-3. Usar o comando: ***python legendador.py <nome_video.extensão>***
+3. Usar o comando: <br>
+   ***python legendador.py <nome_video.extensao>***
+    <br>
+    
+    ou
+    <br>
+    
+    ***python legendador.py <nome_video.extensao> <2>***
+   
+    <br>
+       ⚠️ O <2> indica quantas palavras querem por timestamp 
 
 <br>
 
 ## Adicional
+1. Se tiver dificuldades fale comigo pelo:
+    - [instagram](https://www.instagram.com/laercio.dev/)
+    - [Linkedin](https://www.linkedin.com/in/laerciosantosdev/)
 
-1. Se tiver dificuldades fale comigo pelo [instagram](https://www.instagram.com/laercio.dev/)
+## Upcoming Enhancements
+1. Second progress bar a indicar o estado da conversão do áudio para texto
 
 
-
-
-### gerador_legendas 2025 by *Laércio Santos* 
+### gerador_legendas 2026 by *Laércio Santos* 
