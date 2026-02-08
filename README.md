@@ -42,7 +42,11 @@ Open Source python script + tools needed to automate subtitles in videos
 
 2. Download do script "__legendador.py__"
     > script > legendador.py
-
+    <br>
+    
+3. Download do software para adicionar legendas no video
+    > https://handbrake.fr/
+    <br>
 
 ## Utilização:
 
