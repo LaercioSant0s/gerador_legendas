@@ -12,7 +12,7 @@ Open Source python script + tools needed to automate subtitles in videos
 1. Ter instalado localmente:
     > Python
     - python --version
-    - winget seach python
+    - winget search python
     - winget install Python.Python.3.14.3
     - python --version
     - python -m pip install --upgrade pip
